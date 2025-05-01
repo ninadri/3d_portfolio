@@ -40,13 +40,22 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        My journey into tech began with the Full-Stack Development Bootcamp at
-        the University of Texas at Austin, where I gained hands-on experience in
-        designing and developing robust applications. With a background in
-        customer service, I bring a unique perspective to problem-solving,
-        prioritizing user-centric design and effective communication. If you're
-        looking for someone who combines technical skills with creativity,
-        dedication, and a collaborative spirit, I'd love to connect.
+        My journey into tech began with my{" "}
+        <a
+          href="https://drive.google.com/file/d/134qXNK1Hst2Qm61uX0JG1pmyZErfhN6M/view"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white font-semibold underline"
+        >
+          certification
+        </a>{" "}
+        from the Full-Stack Development Bootcamp at the University of Texas at
+        Austin, where I gained hands-on experience in designing and developing
+        robust applications. With a background in customer service, I bring a
+        unique perspective to problem-solving, prioritizing user-centric design
+        and effective communication. If you're looking for someone who combines
+        technical skills with creativity, dedication, and a collaborative
+        spirit, I'd love to connect.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

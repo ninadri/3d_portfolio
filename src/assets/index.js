@@ -20,14 +20,15 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import postgresql from "./tech/postgresql.png";
 import api from "./tech/api.png";
+import site from "./tech/site.png";
 
 import heartlanddental from "./company/heartlanddental.png";
 import whoop from "./company/whoop.png";
 import heb from "./company/heb.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import weather from "./weather.png";
+import employeepayroll from "./employeepayroll.png";
+import travellist from "./travellist.png";
 
 export {
   logo,
@@ -47,13 +48,14 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  site,
   tailwind,
   typescript,
   threejs,
   heartlanddental,
   whoop,
   heb,
-  carrent,
-  jobit,
-  tripguide,
+  weather,
+  employeepayroll,
+  travellist,
 };
